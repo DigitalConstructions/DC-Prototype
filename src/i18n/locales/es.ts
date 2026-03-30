@@ -12,7 +12,7 @@ export const es = {
       badge: "Desarrollo de Software de Próxima Generación",
       title1: "Digital",
       title2: "Constructions",
-      subtitle: "Construimos soluciones de software inteligentes. Empoderamos empresas con implementaciones de IA de vanguardia y automatizaciones B2B sin fricciones."
+      subtitle: "Construimos soluciones de software inteligentes. Empoderamos a las empresas con implementaciones de IA de vanguardia y automatizaciones B2B eficientes."
     },
     services: {
       title: "Soluciones Inteligentes para Negocios Modernos",
@@ -26,67 +26,67 @@ export const es = {
             "Integración de Modelos de Lenguaje Grande (LLM) personalizados",
             "Análisis predictivo y pronóstico",
             "Visión por computadora y procesamiento de imágenes",
-            "Canalizaciones de Procesamiento del Lenguaje Natural (NLP)",
+            "Pipelines de Procesamiento de Lenguaje Natural (NLP)",
             "Automatización de soporte al cliente impulsada por IA"
           ]
         },
         "b2b-automations": {
           title: "Automatizaciones B2B",
-          description: "Optimiza las operaciones entre empresas con canalizaciones de automatización robustas y escalables que reducen el esfuerzo manual y los errores.",
-          longDescription: "Deja de perder tiempo en la entrada manual y repetitiva de datos. Nuestras soluciones de automatización B2B conectan tus sistemas dispares (ERP, CRM, pasarelas de pago y herramientas internas personalizadas), permitiendo que los datos fluyan de manera fluida y segura. Construimos canalizaciones resilientes y de alto rendimiento que manejan lógica empresarial compleja, completas con manejo inteligente de errores y mecanismos de reintento automatizados.",
+          description: "Optimiza las operaciones entre empresas con flujos de automatización robustos y escalables que reducen el esfuerzo manual y los errores.",
+          longDescription: "Deja de perder tiempo en la entrada manual y repetitiva de datos. Nuestras soluciones de automatización B2B conectan tus diferentes sistemas (ERP, CRM, pasarelas de pago y herramientas internas personalizadas), permitiendo que los datos fluyan de manera fluida y segura. Construimos integraciones resilientes y de alto rendimiento que manejan lógica empresarial compleja, con manejo inteligente de errores y mecanismos de reintento automatizados.",
           features: [
-            "Automatización de flujo de trabajo de extremo a extremo",
+            "Automatización de flujos de trabajo de extremo a extremo",
             "Puentes de API y webhooks personalizados",
-            "Integración de sistemas heredados",
+            "Integración de sistemas heredados (Legacy)",
             "Reportes y alertas automatizados",
             "Sincronización de datos de alto rendimiento"
           ]
         },
         "custom-software": {
           title: "Desarrollo de Software a Medida",
-          description: "Soluciones de software hechas a medida diseñadas para adaptarse a tus requisitos comerciales únicos y escalar con tu crecimiento.",
-          longDescription: "El software estándar rara vez encaja perfectamente. Diseñamos aplicaciones web a medida, plataformas SaaS y herramientas internas desde cero. Utilizando arquitecturas modernas nativas de la nube y marcos de vanguardia, entregamos software altamente eficiente, escalable y mantenible que se alinea exactamente con tus objetivos estratégicos.",
+          description: "Soluciones de software hechas a medida, diseñadas para adaptarse a tus requerimientos comerciales únicos y escalar con tu crecimiento.",
+          longDescription: "El software genérico rara vez encaja perfectamente. Diseñamos aplicaciones web a medida, plataformas SaaS y herramientas internas desde cero. Utilizando arquitecturas modernas nativas de la nube y frameworks de vanguardia, entregamos software altamente eficiente, escalable y mantenible que se alinea exactamente con tus objetivos estratégicos.",
           features: [
             "Desarrollo de aplicaciones web full-stack",
             "Arquitectura SaaS nativa de la nube",
             "Aplicaciones Web Progresivas (PWA)",
-            "Microservicios y computación sin servidor",
-            "Diseño y creación de prototipos de UI/UX"
+            "Microservicios y computación serverless",
+            "Diseño y creación de prototipos UI/UX"
           ]
         },
         "data-engineering": {
           title: "Ingeniería de Datos",
           description: "Construye una infraestructura de datos sólida para respaldar tus modelos de IA e iniciativas de inteligencia empresarial.",
-          longDescription: "Los datos son la base de la inteligencia empresarial moderna y la IA. Diseñamos e implementamos arquitecturas de datos escalables, incluidos lagos de datos, almacenes y canalizaciones de transmisión en tiempo real. Nuestro equipo de ingeniería de datos garantiza que tus datos estén limpios, accesibles y estructurados perfectamente para análisis, informes y modelos de aprendizaje automático.",
+          longDescription: "Los datos son la base de la inteligencia empresarial moderna y la IA. Diseñamos e implementamos arquitecturas de datos escalables, incluyendo data lakes, data warehouses y pipelines de streaming en tiempo real. Nuestro equipo de ingeniería de datos garantiza que tus datos estén limpios, accesibles y estructurados perfectamente para análisis, reportes y modelos de machine learning.",
           features: [
-            "Desarrollo de canalizaciones ETL/ELT",
-            "Diseño de almacén de datos (Snowflake, BigQuery)",
-            "Transmisión de datos en tiempo real (Kafka, Kinesis)",
+            "Desarrollo de pipelines ETL/ELT",
+            "Diseño de Data Warehouse (Snowflake, BigQuery)",
+            "Streaming de datos en tiempo real (Kafka, Kinesis)",
             "Marcos de calidad y gobernanza de datos",
             "Optimización y migración de bases de datos"
           ]
         },
         "system-integration": {
           title: "Integración de Sistemas",
-          description: "Conecta sistemas y API dispares para crear un ecosistema tecnológico unificado y eficiente.",
-          longDescription: "Los silos destruyen la eficiencia. Nos especializamos en conectar ecosistemas de software fragmentados en una plataforma cohesiva y unificada. Ya sea que necesites integrar una herramienta SaaS recién adquirida con tu base de datos local heredada, o construir un panel unificado que extraiga datos de docenas de API, creamos el tejido conectivo que tu negocio necesita para operar sin problemas.",
+          description: "Conecta sistemas y APIs independientes para crear un ecosistema tecnológico unificado y eficiente.",
+          longDescription: "Los silos de información destruyen la eficiencia. Nos especializamos en conectar ecosistemas de software fragmentados en una plataforma cohesiva y unificada. Ya sea que necesites integrar una herramienta SaaS recién adquirida con tu base de datos local heredada, o construir un panel unificado que extraiga datos de docenas de APIs, creamos el tejido conectivo que tu negocio necesita para operar sin problemas.",
           features: [
-            "Integración de API de terceros",
+            "Integración de APIs de terceros",
             "Modernización de sistemas heredados",
-            "Desarrollo de panel unificado",
+            "Desarrollo de paneles unificados",
             "Gestión de identidad y acceso (SSO)",
-            "Diseño de arquitectura basada en eventos"
+            "Diseño de arquitectura orientada a eventos"
           ]
         },
         "security-compliance": {
           title: "Seguridad y Cumplimiento",
-          description: "Asegúrate de que tus flujos de trabajo automatizados y modelos de IA cumplan con los más altos estándares de seguridad y cumplimiento de la industria.",
-          longDescription: "En una era de crecientes amenazas cibernéticas y estrictos requisitos regulatorios, la seguridad no puede ser una ocurrencia tardía. Incorporamos la seguridad en cada capa de nuestro software y canalizaciones de automatización. Desde el cifrado de extremo a extremo hasta el registro de auditoría completo, nos aseguramos de que tu infraestructura digital cumpla con los estándares de la industria como SOC2, GDPR e HIPAA.",
+          description: "Asegúrate de que tus flujos de trabajo automatizados y modelos de IA cumplan con los más altos estándares de seguridad de la industria.",
+          longDescription: "En una era de crecientes amenazas cibernéticas y estrictos requisitos regulatorios, la seguridad no puede ser una idea de último momento. Incorporamos la seguridad en cada capa de nuestro software y flujos de automatización. Desde el cifrado de extremo a extremo hasta el registro de auditoría completo, nos aseguramos de que tu infraestructura digital cumpla con los estándares de la industria como SOC2, GDPR e HIPAA.",
           features: [
             "Cifrado de datos de extremo a extremo",
             "Auditoría de cumplimiento (SOC2, GDPR, HIPAA)",
-            "Evaluaciones de vulnerabilidad y pruebas de penetración",
-            "Implementación segura de puerta de enlace API",
+            "Evaluaciones de vulnerabilidad y pentesting",
+            "Implementación segura de API Gateways",
             "Monitoreo y alertas de seguridad automatizados"
           ]
         }
@@ -95,7 +95,7 @@ export const es = {
     automations: {
       badge: "Automatizaciones B2B",
       title: "Conecta tu ecosistema empresarial.",
-      subtitle: "Deja de perder tiempo en tareas repetitivas. Nuestras soluciones de automatización B2B conectan tus sistemas dispares, permitiendo que los datos fluyan de manera fluida y segura entre tus socios, proveedores y herramientas internas.",
+      subtitle: "Deja de perder tiempo en tareas repetitivas. Nuestras soluciones de automatización B2B conectan tus diferentes sistemas, permitiendo que los datos fluyan de manera fluida y segura entre tus socios, proveedores y herramientas internas.",
       explore: "Explorar Soluciones de Automatización",
       features: [
         "Reduce la entrada manual de datos hasta en un 90%",
@@ -111,7 +111,7 @@ export const es = {
         success: "Éxito",
         inventoryUpdated: "Inventario Actualizado",
         invoiceGenerated: "Factura Generada",
-        awaiting: "Esperando siguiente activador...",
+        awaiting: "Esperando siguiente evento...",
         pending: "Pendiente"
       }
     },
@@ -119,9 +119,9 @@ export const es = {
       title1: "Calcula el ",
       titleHighlight: "ahorro real",
       title2: " con IA",
-      subtitle: "Simula el impacto de automatizar tareas administrativas con un Asistente IA",
+      subtitle: "Simula el impacto de automatizar tareas administrativas con un Asistente de IA",
       annualComparison: "COMPARATIVA ANUAL",
-      currentCost: "Coste Actual",
+      currentCost: "Costo Actual",
       hybridCost: "Híbrido IA + Humano",
       savings: "Ahorro",
       perYear: "/año",
@@ -130,10 +130,10 @@ export const es = {
         currentTeam: "Equipo Actual",
         aiEmployees: "Empleados con IA",
         monthlySalary: "Salario Mensual",
-        annualPayments: "Pagas Anuales",
-        socialSecurity: "Seguridad Social",
+        annualPayments: "Pagos Anuales",
+        socialSecurity: "Cargas Sociales",
         indirectCosts: "Gastos Indirectos",
-        dailyTasks: "Tareas Administrativas por Día",
+        dailyTasks: "Tareas Admin. por Día",
         people: "(personas)",
         usd: "(USD)",
         percent: "(%)",
@@ -141,7 +141,7 @@ export const es = {
       }
     },
     techStack: {
-      title: "Impulsado por tecnología líder en la industria",
+      title: "Potenciado por tecnología líder en la industria",
       subtitle: "Utilizamos las mejores herramientas, modelos de IA y frameworks para construir automatizaciones robustas."
     },
     footer: {
@@ -163,11 +163,11 @@ export const es = {
     },
     about: {
       title: "Construyendo el futuro de la infraestructura digital.",
-      subtitle: "Somos un equipo de ingenieros, diseñadores y estrategas dedicados a resolver problemas comerciales complejos a través de software elegante y automatización inteligente.",
+      subtitle: "Somos un equipo de ingenieros, diseñadores y estrategas dedicados a resolver problemas empresariales complejos a través de software elegante y automatización inteligente.",
       missionTitle: "Nuestra Misión",
-      missionText: "Empoderar a las empresas eliminando la fricción digital. Creemos que la tecnología debe trabajar para ti, no al revés. Al aprovechar la IA y las integraciones perfectas, ayudamos a las organizaciones a centrarse en lo que realmente importa: el crecimiento y la innovación.",
+      missionText: "Empoderar a las empresas eliminando la fricción digital. Creemos que la tecnología debe trabajar para ti, no al revés. Al aprovechar la IA y las integraciones fluidas, ayudamos a las organizaciones a centrarse en lo que realmente importa: el crecimiento y la innovación.",
       approachTitle: "Nuestro Enfoque",
-      approachText: "No solo escribimos código; construimos soluciones. Cada proyecto comienza con una inmersión profunda en tus procesos comerciales. Identificamos cuellos de botella, diseñamos arquitecturas escalables y entregamos software que genera resultados medibles.",
+      approachText: "No solo escribimos código; construimos soluciones. Cada proyecto comienza con una inmersión profunda en tus procesos empresariales. Identificamos cuellos de botella, diseñamos arquitecturas escalables y entregamos software que genera resultados medibles.",
       stats: {
         projects: "Proyectos Entregados",
         uptime: "Tiempo de Actividad",
@@ -187,10 +187,10 @@ export const es = {
       },
       info: {
         chat: "Chatea con nosotros",
-        chatText: "Nuestro amable equipo está aquí para ayudar.",
+        chatText: "Nuestro equipo está aquí para ayudarte.",
         email: "hello@digitalconstructions.com",
         office: "Oficina",
-        officeText: "Ven a saludarnos a nuestra sede.",
+        officeText: "Visítanos en nuestras oficinas.",
         address: "100 Innovation Drive, Tech City, TC 10010",
         phone: "Teléfono",
         phoneText: "Lun-Vie de 8am a 5pm.",
@@ -202,26 +202,26 @@ export const es = {
       features: "Características Principales",
       ctaTitle: "¿Listo para transformar tu negocio?",
       ctaText: "Hablemos sobre cómo nuestras soluciones de {{service}} pueden impulsar el crecimiento y la eficiencia de tu organización.",
-      ctaButton: "Obtener una Consulta"
+      ctaButton: "Solicitar una Consulta"
     },
     automationDetail: {
       back: "Volver al Inicio",
       badge: "Automatizaciones B2B",
       title: "Optimiza tus operaciones con flujos de trabajo inteligentes.",
-      subtitle: "Nuestras soluciones de automatización B2B están diseñadas para eliminar la entrada manual de datos, reducir errores y conectar tus sistemas dispares en un ecosistema unificado y eficiente. Construimos integraciones personalizadas que funcionan exactamente de la manera que tu negocio necesita.",
+      subtitle: "Nuestras soluciones de automatización B2B están diseñadas para eliminar la entrada manual de datos, reducir errores y conectar tus diferentes sistemas en un ecosistema unificado y eficiente. Construimos integraciones personalizadas que funcionan exactamente de la manera que tu negocio necesita.",
       features: {
         syncTitle: "Sincronización en Tiempo Real",
-        syncText: "Mantén tus datos consistentes en todas las plataformas. Cuando se realiza un pedido en tu sistema de comercio electrónico, se refleja instantáneamente en tu ERP y CRM, desencadenando los flujos de trabajo de cumplimiento necesarios sin intervención humana.",
+        syncText: "Mantén tus datos consistentes en todas las plataformas. Cuando se realiza un pedido en tu sistema de comercio electrónico, se refleja instantáneamente en tu ERP y CRM, desencadenando los flujos de trabajo necesarios sin intervención humana.",
         legacyTitle: "Integración de Sistemas Heredados",
         legacyText: "No dejes que el software obsoleto te detenga. Nos especializamos en construir puentes seguros entre aplicaciones modernas en la nube y sistemas heredados locales, desbloqueando datos atrapados y extendiendo la vida útil de tus inversiones.",
         securityTitle: "Manejo Seguro de Datos",
         securityText: "La seguridad es primordial en las integraciones B2B. Implementamos cifrado robusto, protocolos de autenticación seguros (como OAuth 2.0 y SAML) y un registro de auditoría completo para garantizar que tus datos comerciales confidenciales estén siempre protegidos.",
         customTitle: "Flujos de Trabajo Personalizados",
-        customText: "Cada negocio es único. No solo ofrecemos soluciones listas para usar; mapeamos tus procesos comerciales específicos y construimos flujos de trabajo de automatización personalizados que se alinean perfectamente con tus objetivos operativos."
+        customText: "Cada negocio es único. No solo ofrecemos soluciones genéricas; mapeamos tus procesos empresariales específicos y construimos flujos de trabajo de automatización personalizados que se alinean perfectamente con tus objetivos operativos."
       },
       ctaTitle: "¿Listo para automatizar tu negocio?",
       ctaText: "Hablemos sobre cómo nuestras soluciones de automatización B2B pueden ahorrarte tiempo, reducir errores y acelerar tu crecimiento.",
-      ctaButton: "Obtener una Consulta"
+      ctaButton: "Solicitar una Consulta"
     },
     privacy: {
       title: "Política de Privacidad",

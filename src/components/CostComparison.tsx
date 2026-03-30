@@ -68,43 +68,47 @@ export default function CostComparison() {
               
               <div className="flex items-end justify-center gap-8 md:gap-16 h-64 w-full max-w-md border-b border-white/10 pb-4 relative">
                 {/* Current Cost Bar */}
-                <div className="flex flex-col items-center gap-3 w-24 md:w-32">
+                <div className="flex flex-col items-center justify-end h-full w-24 md:w-32 gap-2">
                   <span className="text-white font-bold">{formatCurrencyK(currentCost)}</span>
-                  <motion.div 
-                    initial={{ height: 0 }}
-                    whileInView={{ height: `${(currentCost / maxChartValue) * 100}%` }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 1, ease: "easeOut" }}
-                    className="w-full bg-[#4B5563] rounded-t-xl"
-                  />
-                  <span className="text-xs text-vercel-gray-400 text-center leading-tight">
-                    {t('roi.currentCost').split(' ').map((word, i) => <span key={i} className="block">{word}</span>)}
+                  <div className="w-full flex-1 flex items-end">
+                    <motion.div 
+                      initial={{ height: 0 }}
+                      whileInView={{ height: `${(currentCost / maxChartValue) * 100}%` }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 1, ease: "easeOut" }}
+                      className="w-full bg-[#4B5563] rounded-t-xl"
+                    />
+                  </div>
+                  <span className="text-xs text-vercel-gray-400 text-center leading-tight h-8 flex flex-col justify-center">
+                    {t('roi.currentCost').split(' ').map((word, i) => <span key={i}>{word}</span>)}
                   </span>
                 </div>
 
                 {/* Hybrid Cost Bar */}
-                <div className="flex flex-col items-center gap-3 w-24 md:w-32">
+                <div className="flex flex-col items-center justify-end h-full w-24 md:w-32 gap-2">
                   <span className="text-orange-500 font-bold">{formatCurrencyK(hybridCost)}</span>
-                  <motion.div 
-                    initial={{ height: 0 }}
-                    whileInView={{ height: `${(hybridCost / maxChartValue) * 100}%` }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
-                    className="w-full flex flex-col justify-end rounded-t-xl overflow-hidden"
-                  >
-                    {/* AI Portion (Orange) */}
-                    <div 
-                      style={{ height: `${(aiPlatformCost / hybridCost) * 100}%` }} 
-                      className="w-full bg-orange-500"
-                    />
-                    {/* Human Portion (Gray) */}
-                    <div 
-                      style={{ height: `${((aiEmployees * costPerEmployee) / hybridCost) * 100}%` }} 
-                      className="w-full bg-[#4B5563]"
-                    />
-                  </motion.div>
-                  <span className="text-xs text-vercel-gray-400 text-center leading-tight">
-                    {t('roi.hybridCost').split(' ').map((word, i) => <span key={i} className="block">{word}</span>)}
+                  <div className="w-full flex-1 flex items-end">
+                    <motion.div 
+                      initial={{ height: 0 }}
+                      whileInView={{ height: `${(hybridCost / maxChartValue) * 100}%` }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
+                      className="w-full flex flex-col justify-end rounded-t-xl overflow-hidden"
+                    >
+                      {/* AI Portion (Orange) */}
+                      <div 
+                        style={{ height: `${(aiPlatformCost / hybridCost) * 100}%` }} 
+                        className="w-full bg-orange-500"
+                      />
+                      {/* Human Portion (Gray) */}
+                      <div 
+                        style={{ height: `${((aiEmployees * costPerEmployee) / hybridCost) * 100}%` }} 
+                        className="w-full bg-[#4B5563]"
+                      />
+                    </motion.div>
+                  </div>
+                  <span className="text-xs text-vercel-gray-400 text-center leading-tight h-8 flex flex-col justify-center">
+                    {t('roi.hybridCost').split(' ').map((word, i) => <span key={i}>{word}</span>)}
                   </span>
                 </div>
               </div>
