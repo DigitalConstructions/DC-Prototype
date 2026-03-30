@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-vercel-black: #000000;
+  --color-vercel-white: #ffffff;
+  --color-vercel-gray-100: #fafafa;
+  --color-vercel-gray-200: #eaeaea;
+  --color-vercel-gray-300: #999999;
+  --color-vercel-gray-400: #888888;
+  --color-vercel-gray-500: #666666;
+  --color-vercel-gray-600: #444444;
+  --color-vercel-gray-700: #333333;
+  --color-vercel-gray-800: #111111;
+  
+  --color-vercel-blue: #0070f3;
+  --color-vercel-cyan: #50e3c2;
+  --color-vercel-purple: #7928ca;
+  --color-vercel-pink: #ff0080;
+
+  --animate-marquee: marquee 30s linear infinite;
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+}
+
+body {
+  background-color: var(--color-vercel-black);
+  color: var(--color-vercel-white);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--color-vercel-pink);
+  color: var(--color-vercel-white);
+}
