@@ -6,7 +6,12 @@ export default function About() {
 
   return (
     <main className="pt-32 pb-20 px-6 min-h-screen relative z-10 max-w-4xl mx-auto">
-      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
+      <motion.div 
+        initial={{ opacity: 0, filter: 'blur(10px)', y: 20 }} 
+        animate={{ opacity: 1, filter: 'blur(0px)', y: 0 }} 
+        exit={{ opacity: 0, filter: 'blur(10px)', y: -20 }} 
+        transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+      >
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-8">{t('about.title')}</h1>
         <div className="space-y-6 text-lg text-vercel-gray-400 leading-relaxed font-light">
           <p>
@@ -21,6 +26,11 @@ export default function About() {
           <h2 className="text-2xl font-semibold text-white mt-12 mb-4 tracking-tight">{t('about.approachTitle')}</h2>
           <p>
             {t('about.approachText')}
+          </p>
+          
+          <h2 className="text-2xl font-semibold text-white mt-12 mb-4 tracking-tight">{t('about.whoWeAreTitle')}</h2>
+          <p>
+            {t('about.whoWeAreText')}
           </p>
         </div>
       </motion.div>

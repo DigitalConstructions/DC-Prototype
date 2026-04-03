@@ -1,12 +1,26 @@
 import { motion } from 'motion/react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
+import { ArrowLeft } from 'lucide-react';
 
 export default function Privacy() {
   const { t } = useTranslation();
 
   return (
     <main className="pt-32 pb-20 px-6 min-h-screen relative z-10 max-w-3xl mx-auto">
-      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
+      <motion.div 
+        initial={{ opacity: 0, filter: 'blur(10px)', y: 20 }} 
+        animate={{ opacity: 1, filter: 'blur(0px)', y: 0 }} 
+        exit={{ opacity: 0, filter: 'blur(10px)', y: -20 }} 
+        transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+      >
+        <Link
+          to="/"
+          className="inline-flex items-center gap-2 text-sm text-vercel-gray-400 hover:text-white transition-colors mb-12"
+        >
+          <ArrowLeft className="w-4 h-4" />
+          {t('serviceDetail.back')}
+        </Link>
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-8">{t('privacy.title')}</h1>
         <div className="space-y-8 text-vercel-gray-400 font-light leading-relaxed">
           <p>{t('privacy.intro')}</p>

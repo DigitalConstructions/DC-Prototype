@@ -9,85 +9,91 @@ export const en = {
       brand: "Digital Constructions"
     },
     hero: {
-      badge: "Next-Gen Software Development",
+      badge: "Your software and automation partner",
       title1: "Digital",
       title2: "Constructions",
-      subtitle: "We build intelligent software solutions. Empowering businesses with cutting-edge AI implementations and seamless B2B automations."
+      subtitle: "We help you grow with clear, reliable software solutions. We combine automation, AI, and custom development so your business can move forward with confidence."
     },
     services: {
-      title: "Intelligent Solutions for Modern Business",
-      subtitle: "We specialize in transforming complex business challenges into streamlined, automated processes powered by AI.",
+      title: "Services designed to move your business forward",
+      subtitle: "More than technology for the sake of hype, we build practical solutions for daily operations: less friction, better decisions, and sustainable growth.",
+      notFound: "Service Not Found",
+      backToHome: "Back to Home",
+      backToServices: "Back to Services",
+      keyCapabilities: "Key Capabilities",
+      callToActionTitle: "Ready to transform your workflow?",
+      callToActionButton: "Get in Touch",
       items: {
         "ai-implementation": {
-          title: "AI Implementation",
-          description: "Integrate cutting-edge artificial intelligence into your existing workflows to optimize decision-making and automate complex tasks.",
-          longDescription: "Our AI Implementation services help you harness the power of machine learning, natural language processing, and predictive analytics. We build custom AI models tailored to your business needs, enabling you to automate repetitive tasks, gain deep insights from your data, and deliver personalized experiences to your customers. From intelligent chatbots to complex forecasting algorithms, we bring the future of technology to your current operations.",
+          title: "AI Adoption",
+          description: "We help you introduce friendly AI assistants into your daily operations, empowering your team to work smarter.",
+          longDescription: "We know AI sounds overwhelming, but we're here to guide you. We integrate artificial intelligence into your daily workflows in a natural way, helping your team delegate repetitive tasks so they can focus on creativity and growth. We guarantee a smooth, human-centric transition into the future of work.",
           features: [
-            "Custom Large Language Model (LLM) integration",
-            "Predictive analytics and forecasting",
-            "Computer vision and image processing",
-            "Natural Language Processing (NLP) pipelines",
-            "AI-driven customer support automation"
+            "Smart assistants designed to support your team",
+            "Friendly predictive analytics for trend tracking",
+            "Automated and painless document processing",
+            "Private AI models trained on your specific needs",
+            "Warmer and faster customer support channels"
           ]
         },
-        "b2b-automations": {
-          title: "B2B Automations",
-          description: "Streamline operations between businesses with robust, scalable automation pipelines that reduce manual effort and errors.",
-          longDescription: "Stop wasting time on repetitive manual data entry. Our B2B automation solutions connect your disparate systems—ERPs, CRMs, payment gateways, and custom internal tools—allowing data to flow seamlessly and securely. We build resilient, high-throughput pipelines that handle complex business logic, complete with intelligent error handling and automated retry mechanisms.",
+        "b2c-automations": {
+          title: "B2C Automations",
+          description: "Create magical experiences for your customers by automating marketing, sales, and support interactions.",
+          longDescription: "Stand out from the noise and build genuine relationships at scale. We design friendly, automated customer journeys that feel personal. Whether it's guiding a new user, recovering abandoned carts, or answering frequent questions 24/7, we make sure every client feels heard and valued without adding workload to your team.",
           features: [
-            "End-to-end workflow automation",
-            "Custom API bridges and webhooks",
-            "Legacy system integration",
-            "Automated reporting and alerts",
-            "High-throughput data synchronization"
+            "Smooth and engaging onboarding paths",
+            "Smart recovery for abandoned carts",
+            "Friendly 24/7 customer support bots",
+            "Personalized loyalty and rewards systems",
+            "Effortless appointment and reminder workflows"
           ]
         },
         "custom-software": {
-          title: "Custom Software Development",
-          description: "Tailor-made software solutions designed to fit your unique business requirements and scale with your growth.",
-          longDescription: "Off-the-shelf software rarely fits perfectly. We engineer bespoke web applications, SaaS platforms, and internal tools from the ground up. Using modern, cloud-native architectures and cutting-edge frameworks, we deliver highly performant, scalable, and maintainable software that aligns exactly with your strategic objectives.",
+          title: "Custom Software",
+          description: "Tools designed exactly the way your team needs them. Nothing more, nothing less.",
+          longDescription: "Every business has its own magic, and one-size-fits-all software rarely captures it. We design internal platforms with your team's real workflow in mind. As digital craftsmen, we build robust yet incredibly friendly technology, tailored to grow right alongside you.",
           features: [
-            "Full-stack web application development",
-            "Cloud-native SaaS architecture",
-            "Progressive Web Apps (PWAs)",
-            "Microservices and serverless computing",
-            "UI/UX design and prototyping"
+            "Web platforms designed for your team's comfort",
+            "Exclusive tools tailored to your daily processes",
+            "Fast, safe, and accessible applications everywhere",
+            "100% human-centered product design",
+            "A future-proof foundation built to grow with you"
           ]
         },
         "data-engineering": {
-          title: "Data Engineering",
-          description: "Build robust data infrastructure to support your AI models and business intelligence initiatives.",
-          longDescription: "Data is the foundation of modern business intelligence and AI. We design and implement scalable data architectures, including data lakes, warehouses, and real-time streaming pipelines. Our data engineering team ensures your data is clean, accessible, and structured perfectly for analytics, reporting, and machine learning models.",
+          title: "Data Organization",
+          description: "Turn messy spreadsheets into clear, accessible information for stress-free decision-making.",
+          longDescription: "Having a lot of data is stressful if it's unorganized. We're here to clean house. We build the foundation so your company's data is clean, secure, and always ready to be queried—allowing you to clearly see your progress without wrestling with complicated technology.",
           features: [
-            "ETL/ELT pipeline development",
-            "Data warehouse design (Snowflake, BigQuery)",
-            "Real-time data streaming (Kafka, Kinesis)",
-            "Data quality and governance frameworks",
-            "Database optimization and migration"
+            "Neat data structures to make transparent decisions",
+            "Secure, reliable, and scalable infrastructure",
+            "Seamlessly merging data from the tools you already use",
+            "Prepping your information for easy AI adoption",
+            "Friendly dashboards and visualizations you'll actually like"
           ]
         },
         "system-integration": {
-          title: "System Integration",
-          description: "Connect disparate systems and APIs to create a unified, efficient technological ecosystem.",
-          longDescription: "Silos destroy efficiency. We specialize in connecting fragmented software ecosystems into a cohesive, unified platform. Whether you need to integrate a newly acquired SaaS tool with your legacy on-premise database, or build a unified dashboard that pulls from dozens of APIs, we create the connective tissue your business needs to operate smoothly.",
+          title: "Integrated Ecosystems",
+          description: "We make your legacy systems and new apps live and collaborate in total harmony.",
+          longDescription: "Having business info scattered across multiple platforms is exhausting. We act as translators between your different systems so they behave as one unified entity. We make sure every tool cooperates beautifully, giving you peace of mind by effortlessly integrating the classic with the new.",
           features: [
-            "Third-party API integration",
-            "Legacy system modernization",
-            "Unified dashboard development",
-            "Identity and access management (SSO)",
-            "Event-driven architecture design"
+            "Natural bridges between old and new tools",
+            "A single, unified hub to oversee your operations",
+            "Creating processes that flow without interruption",
+            "Simplified, unified access for everyone on the team",
+            "Adaptable architecture that welcomes future changes"
           ]
         },
         "security-compliance": {
-          title: "Security & Compliance",
-          description: "Ensure your automated workflows and AI models meet the highest standards of security and industry compliance.",
-          longDescription: "In an era of increasing cyber threats and strict regulatory requirements, security cannot be an afterthought. We embed security into every layer of our software and automation pipelines. From end-to-end encryption to comprehensive audit logging, we ensure your digital infrastructure complies with industry standards like SOC2, GDPR, and HIPAA.",
+          title: "Trust & Security",
+          description: "We protect your company and your information with the highest standard, so you can move forward safely.",
+          longDescription: "Caring for your data is our biggest priority. We want you to work and sleep peacefully, knowing your business and customer information is heavily protected. We implement top-tier security standards transparently behind the scenes, without ever making your daily operations complicated.",
           features: [
-            "End-to-end data encryption",
-            "Compliance auditing (SOC2, GDPR, HIPAA)",
-            "Vulnerability assessments and penetration testing",
-            "Secure API gateway implementation",
-            "Automated security monitoring and alerting"
+            "Complete and confidential protection for your data",
+            "Simple guidance for regulatory compliance",
+            "Constant, invisible threat monitoring",
+            "A security-first mindset from day one of development",
+            "Total peace of mind for your team and clients"
           ]
         }
       }
@@ -95,7 +101,7 @@ export const en = {
     automations: {
       badge: "B2B Automations",
       title: "Connect your business ecosystem.",
-      subtitle: "Stop wasting time on repetitive tasks. Our B2B automation solutions connect your disparate systems, allowing data to flow seamlessly and securely between your partners, vendors, and internal tools.",
+      subtitle: "When your systems work together, your business moves faster. We help you connect tools and processes so your team can focus on what really matters.",
       explore: "Explore Automation Solutions",
       features: [
         "Reduce manual data entry by up to 90%",
@@ -146,7 +152,7 @@ export const en = {
     },
     footer: {
       brand: "Digital Constructions",
-      tagline: "Building the digital infrastructure of tomorrow with AI and automation.",
+      tagline: "We build technology with a human touch so your business can grow with confidence.",
       company: "Company",
       about: "About",
       careers: "Careers",
@@ -162,12 +168,14 @@ export const en = {
       rights: "© {{year}} Digital Constructions. All rights reserved."
     },
     about: {
-      title: "Building the future of digital infrastructure.",
-      subtitle: "We are a team of engineers, designers, and strategists dedicated to solving complex business problems through elegant software and intelligent automation.",
+      title: "We are ambition builders.",
+      subtitle: "At ABVC Digital Constructions, we don't just develop software; we design the digital infrastructure that allows leaders to scale without limits. We democratize the power of AI so a company's size never limits its vision.",
       missionTitle: "Our Mission",
-      missionText: "To empower businesses by eliminating digital friction. We believe that technology should work for you, not the other way around. By leveraging AI and seamless integrations, we help organizations focus on what truly matters: growth and innovation.",
-      approachTitle: "Our Approach",
-      approachText: "We don't just write code; we build solutions. Every project starts with a deep dive into your business processes. We identify bottlenecks, design scalable architectures, and deliver software that drives measurable results.",
+      missionText: "To drive the growth of leaders and companies by designing intelligent digital infrastructures. At ABVC Digital Constructions, we transform goals into tangible results through the strategic integration of AI and automation, building the technical bridge to elevate your corporation.",
+      approachTitle: "Our Vision",
+      approachText: "To be the global benchmark in digital architecture for visionary executives, solidifying ourselves as the strategic partner that redefines boundaries. We aspire to a world where no great idea is stopped by a lack of technology, leading the transition to a more efficient and profoundly human industry.",
+      whoWeAreTitle: "Who We Are",
+      whoWeAreText: "At ABVC Digital Constructions, we are architects of technological solutions. We believe tools like AI awaken their true value when serving human vision. We understand that behind every corporation is an executive with a latent desire to expand their company. While others focus on requirements, we focus on your roadmap. We don't just install systems; we pave paths, ensuring your transition into the future is solid and profitable.",
       stats: {
         projects: "Projects Delivered",
         uptime: "System Uptime",
@@ -175,8 +183,8 @@ export const en = {
       }
     },
     contact: {
-      title: "Let's build something great together.",
-      subtitle: "Whether you need a custom AI solution, a complex B2B automation, or a complete digital transformation, our team is ready to help.",
+      title: "Let's talk about your next growth step.",
+      subtitle: "If you have an idea, an operational challenge, or a growth goal, we are here to help you turn it into a practical solution.",
       form: {
         name: "Name",
         email: "Email",
@@ -207,21 +215,21 @@ export const en = {
     automationDetail: {
       back: "Back to Home",
       badge: "B2B Automations",
-      title: "Streamline your operations with intelligent workflows.",
-      subtitle: "Our B2B automation solutions are designed to eliminate manual data entry, reduce errors, and connect your disparate systems into a unified, efficient ecosystem. We build custom integrations that work exactly the way your business needs them to.",
+      title: "Connect your ecosystem and work seamlessly.",
+      subtitle: "Our solutions are designed to end the repetitive manual work that drains your team's energy. We build friendly bridges between your platforms so information flows freely, letting you focus on what really matters.",
       features: {
-        syncTitle: "Real-time Synchronization",
-        syncText: "Keep your data consistent across all platforms. When an order is placed in your e-commerce system, it instantly reflects in your ERP and CRM, triggering the necessary fulfillment workflows without human intervention.",
-        legacyTitle: "Legacy System Integration",
-        legacyText: "Don't let outdated software hold you back. We specialize in building secure bridges between modern cloud applications and legacy on-premise systems, unlocking trapped data and extending the life of your investments.",
-        securityTitle: "Secure Data Handling",
-        securityText: "Security is paramount in B2B integrations. We implement robust encryption, secure authentication protocols (like OAuth 2.0 and SAML), and comprehensive audit logging to ensure your sensitive business data is always protected.",
-        customTitle: "Custom Workflows",
-        customText: "Every business is unique. We don't just offer out-of-the-box solutions; we map out your specific business processes and build tailored automation workflows that align perfectly with your operational goals."
+        syncTitle: "Always in Sync",
+        syncText: "Your information is always up to date everywhere. When an event happens on one platform, your entire ecosystem updates instantly without you lifting a finger.",
+        legacyTitle: "Refresh the Classic",
+        legacyText: "You don't have to throw away useful older software. We build safe connections between your trusted local systems and brand new cloud apps, breathing new life into your foundation.",
+        securityTitle: "Peace of Mind & Security",
+        securityText: "Security is non-negotiable. We wrap every connection in modern encryption and safe protocols, ensuring your sensitive business data travels fully protected and out of sight.",
+        customTitle: "Tailored Just for You",
+        customText: "We don't believe in one-size-fits-all solutions that force you to adapt. We study your real daily processes and build workflow automations that comfortably fit how your team actually works."
       },
-      ctaTitle: "Ready to automate your business?",
-      ctaText: "Let's discuss how our B2B automation solutions can save you time, reduce errors, and accelerate your growth.",
-      ctaButton: "Get a Consultation"
+      ctaTitle: "Ready to simplify your daily operations?",
+      ctaText: "Let's connect your tools to save your team valuable time and finally get rid of manual data entry errors.",
+      ctaButton: "Let's talk"
     },
     privacy: {
       title: "Privacy Policy",

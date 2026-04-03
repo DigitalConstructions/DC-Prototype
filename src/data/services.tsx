@@ -18,19 +18,19 @@ export const servicesData = [
     ]
   },
   {
-    id: 'b2b-automations',
+    id: 'b2c-automations',
     icon: <Zap className="w-6 h-6 text-vercel-cyan" />,
     iconLarge: <Zap className="w-12 h-12 text-vercel-cyan" />,
     color: 'text-vercel-cyan',
-    title: 'B2B Automations',
-    description: 'Streamline operations between businesses with robust, scalable automation pipelines that reduce manual effort and errors.',
-    longDescription: 'Stop wasting time on repetitive manual data entry. Our B2B automation solutions connect your disparate systems—ERPs, CRMs, payment gateways, and custom internal tools—allowing data to flow seamlessly and securely. We build resilient, high-throughput pipelines that handle complex business logic, complete with intelligent error handling and automated retry mechanisms.',
+    title: 'B2C Automations',
+    description: 'Create magical experiences for your customers by automating marketing, sales, and support interactions.',
+    longDescription: 'Deliver personalized experiences at scale. We design and implement customer-facing workflows that engage your audience automatically. From intelligent email marketing sequences based on user behavior to seamless chatbots for instant support and dynamic loyalty programs, we ensure every interaction feels personal, immediate, and perfectly timed.',
     features: [
-      'End-to-end workflow automation',
-      'Custom API bridges and webhooks',
-      'Legacy system integration',
-      'Automated reporting and alerts',
-      'High-throughput data synchronization'
+      'Personalized customer journey mapping',
+      'Automated email and SMS campaigns',
+      'Intelligent 24/7 customer support bots',
+      'Cart abandonment recovery flows',
+      'Dynamic loyalty and rewards programs'
     ]
   },
   {

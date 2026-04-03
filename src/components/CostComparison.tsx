@@ -50,7 +50,7 @@ export default function CostComparison() {
           className="flex flex-col items-center text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-            {t('roi.title1')}<span className="text-orange-500">{t('roi.titleHighlight')}</span>{t('roi.title2')}
+            {t('roi.title1')}<span className="text-white">{t('roi.titleHighlight')}</span>{t('roi.title2')}
           </h2>
           <p className="text-lg text-vercel-gray-400 max-w-2xl">
             {t('roi.subtitle')}
@@ -86,7 +86,7 @@ export default function CostComparison() {
 
                 {/* Hybrid Cost Bar */}
                 <div className="flex flex-col items-center justify-end h-full w-24 md:w-32 gap-2">
-                  <span className="text-orange-500 font-bold">{formatCurrencyK(hybridCost)}</span>
+                  <span className="text-white font-bold">{formatCurrencyK(hybridCost)}</span>
                   <div className="w-full flex-1 flex items-end">
                     <motion.div 
                       initial={{ height: 0 }}
@@ -95,10 +95,10 @@ export default function CostComparison() {
                       transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
                       className="w-full flex flex-col justify-end rounded-t-xl overflow-hidden"
                     >
-                      {/* AI Portion (Orange) */}
+                      {/* AI Portion */}
                       <div 
                         style={{ height: `${(aiPlatformCost / hybridCost) * 100}%` }} 
-                        className="w-full bg-orange-500"
+                        className="w-full bg-white"
                       />
                       {/* Human Portion (Gray) */}
                       <div 
@@ -119,7 +119,7 @@ export default function CostComparison() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.8 }}
-                className="mt-10 bg-[#064E3B]/40 border border-[#059669]/30 text-[#10B981] px-6 py-3 rounded-full flex items-center gap-3 font-semibold text-lg"
+                className="mt-10 bg-white/5 border border-white/20 text-white px-6 py-3 rounded-full flex items-center gap-3 font-semibold text-lg"
               >
                 <TrendingUp className="w-5 h-5" />
                 {t('roi.savings')}: {formatCurrencyFull(savings)}{t('roi.perYear')}
@@ -180,23 +180,14 @@ export default function CostComparison() {
               </div>
 
               <div className="grid grid-cols-1 gap-4">
-                <InputField 
-                  icon={ListTodo} 
-                  label={t('roi.fields.dailyTasks')} 
-                  unit={t('roi.fields.tasks')} 
-                  value={dailyTasks} 
-                  onChange={setDailyTasks} 
+                <InputField
+                  icon={ListTodo}
+                  label={t('roi.fields.dailyTasks')}
+                  unit={t('roi.fields.tasks')}
+                  value={dailyTasks}
+                  onChange={setDailyTasks}
                 />
               </div>
-
-              <motion.button 
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                className="w-full mt-4 bg-orange-500 hover:bg-orange-600 text-white font-semibold py-4 rounded-xl flex items-center justify-center gap-2 transition-colors shadow-lg shadow-orange-500/20"
-              >
-                <Calculator className="w-5 h-5" />
-                {t('roi.viewCalculator')}
-              </motion.button>
             </div>
 
           </div>
@@ -211,7 +202,7 @@ function InputField({ icon: Icon, label, unit, value, onChange }: any) {
     <div className="flex flex-col gap-2">
       <div className="flex items-center justify-between text-sm">
         <div className="flex items-center gap-2 text-vercel-gray-300">
-          <Icon className="w-4 h-4 text-orange-500" />
+          <Icon className="w-4 h-4 text-white" />
           <span>{label}</span>
         </div>
         {unit && <span className="text-vercel-gray-500 text-xs">{unit}</span>}
@@ -220,7 +211,7 @@ function InputField({ icon: Icon, label, unit, value, onChange }: any) {
         type="number" 
         value={value}
         onChange={(e) => onChange(Number(e.target.value))}
-        className="bg-[#0D1117] border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-orange-500/50 focus:ring-1 focus:ring-orange-500/50 transition-all font-mono"
+        className="bg-[#0D1117] border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-white/50 focus:ring-1 focus:ring-white/40 transition-all font-mono"
       />
     </div>
   );
