@@ -1,0 +1,31 @@
+name: Deploy Netlify
+
+on:
+  push:
+    branches:
+      - desarrollo
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      NETLIFY_SITE_ID: fd1f78bd-2c09-466b-b49d-9e19e8aede14
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to Netlify
+        run: npx netlify-cli deploy --prod --dir=dist --site=$NETLIFY_SITE_ID --auth=${{ secrets.NETLIFY_AUTH_TOKEN }}

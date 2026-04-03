@@ -40,3 +40,15 @@ Opciones de despliegue:
    - `netlify login`
    - `netlify init`
    - `netlify deploy --build --prod`
+
+## Auto-deploy con GitHub Actions (rama desarrollo)
+
+Este repositorio incluye el workflow `.github/workflows/deploy-netlify.yml`.
+
+Funcionamiento:
+- Cada `push` a la rama `desarrollo` ejecuta build y despliega a Netlify.
+
+Configura en GitHub (Settings > Secrets and variables > Actions):
+- `NETLIFY_AUTH_TOKEN`: token personal de Netlify.
+
+El `NETLIFY_SITE_ID` ya esta configurado en el workflow para este proyecto.
