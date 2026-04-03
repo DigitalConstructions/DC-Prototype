@@ -1,12 +1,13 @@
 export const en = {
   translation: {
     nav: {
+      home: "Home",
       services: "Services",
       automations: "Automations",
       about: "About",
       contact: "Contact Us",
       login: "Log In",
-      brand: "Digital Constructions"
+      brand: "ABVC Digital Constructions"
     },
     hero: {
       badge: "Your software and automation partner",
@@ -151,7 +152,7 @@ export const en = {
       subtitle: "We leverage the best tools, AI models, and frameworks to build robust automations."
     },
     footer: {
-      brand: "Digital Constructions",
+      brand: "ABVC Digital Constructions",
       tagline: "We build technology with a human touch so your business can grow with confidence.",
       company: "Company",
       about: "About",
@@ -190,6 +191,7 @@ export const en = {
         email: "Email",
         company: "Company",
         message: "Message",
+        prefilledMessage: "Hello, I would like to receive more information about the service: {{service}}",
         submit: "Send Message",
         submitting: "Sending..."
       },

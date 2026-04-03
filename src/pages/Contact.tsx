@@ -67,7 +67,7 @@ export default function Contact() {
               name="message"
               required
               rows={5}
-              defaultValue={serviceInterest ? `Hola, me gustaría recibir más información sobre el servicio de: ${serviceInterest}` : ''}
+              defaultValue={serviceInterest ? t('contact.form.prefilledMessage', { service: serviceInterest }) : ''}
               className="w-full bg-transparent border border-white/20 rounded-lg p-3 text-white focus:border-white focus:ring-1 focus:ring-white outline-none transition-all resize-none"
               placeholder="How can we help you?"
             ></textarea>

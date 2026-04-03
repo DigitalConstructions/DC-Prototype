@@ -31,6 +31,7 @@ export default function Navbar() {
         </Link>
 
         <div className="hidden md:flex items-center gap-8 text-sm text-vercel-gray-400">
+          <Link to="/" className="hover:text-white transition-colors">{t('nav.home')}</Link>
           <div className="relative group py-6">
             <button className="flex items-center gap-1 hover:text-white transition-colors outline-none cursor-pointer">
               {t('nav.services')}
@@ -90,8 +91,9 @@ export default function Navbar() {
             exit={{ opacity: 0, height: 0 }}
             className="md:hidden bg-[#0A0A0A] border-b border-white/10 overflow-hidden"
           >
-            <div className="px-6 py-4 flex flex-col gap-4 text-sm text-vercel-gray-300">
-              <div className="flex flex-col gap-2">
+            <div className="px-6 py-4 flex flex-col gap-4 text-sm text-vercel-gray-300">                <Link to="/" onClick={closeMenu} className="flex items-center justify-between py-2 text-left hover:text-white transition-colors">
+                  {t('nav.home')}
+                </Link>              <div className="flex flex-col gap-2">
                 <button
                   onClick={() => setIsServicesOpen(!isServicesOpen)}
                   className="flex items-center justify-between py-2 text-left hover:text-white transition-colors"
