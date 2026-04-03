@@ -2,19 +2,41 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# Digital Constructions - Web Template
 
-This contains everything you need to run your app locally.
+Plantilla web corporativa construida con React + TypeScript + Vite.
 
-View your app in AI Studio: https://ai.studio/apps/047a860e-252c-4356-990b-7d230b1ef936
+## Desarrollo local
 
-## Run Locally
+Prerequisito: Node.js 18 o superior.
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
+1. Instala dependencias:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Ejecuta el entorno de desarrollo:
    `npm run dev`
+3. Abre en navegador:
+   `http://localhost:3000`
+
+## Build de produccion
+
+1. Genera build:
+   `npm run build`
+2. Previsualiza build localmente:
+   `npm run preview`
+
+## Despliegue en Netlify
+
+El proyecto ya incluye configuracion en `netlify.toml` para SPA.
+
+Opciones de despliegue:
+
+1. Via Git (recomendada)
+   - Conecta el repositorio en Netlify.
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+
+2. Via CLI
+   - `npm install -g netlify-cli`
+   - `netlify login`
+   - `netlify init`
+   - `netlify deploy --build --prod`
