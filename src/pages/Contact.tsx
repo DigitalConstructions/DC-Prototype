@@ -25,9 +25,18 @@ export default function Contact() {
           {t('contact.subtitle')}
         </p>
 
-        <form action="https://formsubmit.co/abvcdigital@hotmail.com" method="POST" className="space-y-6">
-          <input type="hidden" name="_subject" value={`Nuevo lead interesado en servicios/contacto`} />
-          <input type="hidden" name="_captcha" value="false" />
+        <form 
+          name="contact" 
+          method="POST" 
+          action="/?success=true"
+          data-netlify="true" 
+          netlify-honeypot="bot-field"
+          className="space-y-6"
+        >
+          <input type="hidden" name="form-name" value="contact" />
+          <p className="hidden">
+            <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+          </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="space-y-2">
