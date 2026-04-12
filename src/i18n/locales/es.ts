@@ -198,7 +198,7 @@ export const es = {
       info: {
         chat: "Chatea con nosotros",
         chatText: "Nuestro equipo está aquí para ayudarte.",
-        email: "hello@digitalconstructions.com",
+        email: "abvcdigital@hotmail.com",
         office: "Oficina",
         officeText: "Visítanos en nuestras oficinas.",
         address: "100 Innovation Drive, Tech City, TC 10010",
