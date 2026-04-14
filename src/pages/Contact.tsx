@@ -25,10 +25,18 @@ export default function Contact() {
           {t('contact.subtitle')}
         </p>
 
-        <form action="https://formsubmit.co/zyronsky7@gmail.com" method="POST" className="space-y-6">
-          <input type="hidden" name="_subject" value={`Nuevo lead interesado en servicios/contacto`} />
-          <input type="hidden" name="_next" value={window.location.origin} />
-          <input type="hidden" name="_captcha" value="false" />
+        <form 
+          name="contact" 
+          method="POST" 
+          action="/?success=true"
+          data-netlify="true" 
+          netlify-honeypot="bot-field"
+          className="space-y-6"
+        >
+          <input type="hidden" name="form-name" value="contact" />
+          <p className="hidden">
+            <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+          </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="space-y-2">
@@ -67,7 +75,7 @@ export default function Contact() {
               name="message"
               required
               rows={5}
-              defaultValue={serviceInterest ? `Hola, me gustaría recibir más información sobre el servicio de: ${serviceInterest}` : ''}
+              defaultValue={serviceInterest ? t('contact.form.prefilledMessage', { service: serviceInterest }) : ''}
               className="w-full bg-transparent border border-white/20 rounded-lg p-3 text-white focus:border-white focus:ring-1 focus:ring-white outline-none transition-all resize-none"
               placeholder="How can we help you?"
             ></textarea>
