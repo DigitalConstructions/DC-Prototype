@@ -7,6 +7,7 @@ export default function Contact() {
   const { t } = useTranslation();
   const [searchParams] = useSearchParams();
   const serviceInterest = searchParams.get('service') || '';
+  const success = searchParams.get('success') === 'true';
 
   return (
     <main className="pt-32 pb-20 px-6 min-h-screen relative z-10 max-w-2xl mx-auto">
@@ -24,11 +25,17 @@ export default function Contact() {
         <p className="text-vercel-gray-400 mb-10 text-lg font-light">
           {t('contact.subtitle')}
         </p>
+        {success && (
+          <div className="rounded-2xl border border-emerald-500/30 bg-emerald-500/10 p-4 mb-8 text-emerald-100">
+            <strong>¡Gracias!</strong>
+            <p>Hemos recibido tu mensaje. Te contactaremos pronto.</p>
+          </div>
+        )}
 
         <form 
           name="contact" 
           method="POST" 
-          action="/?success=true"
+          action="/contact?success=true"
           data-netlify="true" 
           netlify-honeypot="bot-field"
           className="space-y-6"
