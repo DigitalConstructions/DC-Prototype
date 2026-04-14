@@ -35,7 +35,7 @@ export default function Contact() {
         <form 
           name="contact" 
           method="POST" 
-          action="/contact?success=true"
+          action="/gracias"
           data-netlify="true" 
           netlify-honeypot="bot-field"
           className="space-y-6"
@@ -75,6 +75,19 @@ export default function Contact() {
               className="w-full bg-transparent border border-white/20 rounded-lg p-3 text-white focus:border-white focus:ring-1 focus:ring-white outline-none transition-all"
               placeholder="john@company.com"
             />
+          </div>
+          <div className="space-y-2">
+            <label className="text-sm font-medium text-vercel-gray-300">{t('contact.form.phone')}</label>
+            <input
+              type="tel"
+              name="phone"
+              required
+              pattern="\+\d{1,3}[\s\d\-]{4,}$"
+              title={t('contact.form.phoneHelp')}
+              className="w-full bg-transparent border border-white/20 rounded-lg p-3 text-white focus:border-white focus:ring-1 focus:ring-white outline-none transition-all"
+              placeholder={t('contact.form.phonePlaceholder')}
+            />
+            <p className="text-xs text-vercel-gray-400">{t('contact.form.phoneHelp')}</p>
           </div>
           <div className="space-y-2">
             <label className="text-sm font-medium text-vercel-gray-300">{t('contact.form.message')}</label>

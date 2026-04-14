@@ -190,6 +190,9 @@ export const es = {
         name: "Nombre",
         email: "Correo Electrónico",
         company: "Empresa",
+        phone: "Teléfono",
+        phonePlaceholder: "Código de país + número, ej. +56 912 345 678",
+        phoneHelp: "Incluye el código de país al inicio, por ejemplo +56 912 345 678",
         message: "Mensaje",
         prefilledMessage: "Hola, me gustaría recibir más información sobre el servicio de: {{service}}",
         submit: "Enviar Mensaje",
@@ -206,6 +209,13 @@ export const es = {
         phoneText: "Lun-Vie de 8am a 5pm.",
         phoneNumber: "+1 (555) 000-0000"
       }
+    },
+    thankYou: {
+      badge: "Mensaje enviado",
+      title: "Gracias por contactarnos.",
+      subtitle: "Pronto nos pondremos en contacto contigo para avanzar con tu proyecto.",
+      returnButton: "Volver al contacto",
+      homeButton: "Volver al inicio"
     },
     serviceDetail: {
       back: "Volver al Inicio",
