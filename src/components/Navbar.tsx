@@ -26,8 +26,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black/50 backdrop-blur-md border-b border-white/10">
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3" onClick={closeMenu}>
-          <img src="/logo.svg" alt="Digital Constructions Logo" className="w-6 h-6" />
-          <span className="font-semibold text-sm tracking-tight">{t('nav.brand')}</span>
+          <img src="/logo.svg" alt="ABVC Digital Constructions Logo" className="h-7 md:h-10 w-auto" />
         </Link>
 
         <div className="hidden md:flex items-center gap-8 text-sm text-vercel-gray-400">
@@ -47,7 +46,7 @@ export default function Navbar() {
                   <div className="shrink-0 w-5 h-5 flex items-center justify-center">
                     {service.icon}
                   </div>
-                  <span className="text-white/90 font-medium text-sm leading-tight hover:text-white">{t(`services.items.${service.id}.title`, { defaultValue: service.title })}</span>
+                  <span className="text-white/90 text-sm leading-tight hover:text-white">{t(`services.items.${service.id}.title`, { defaultValue: service.title })}</span>
                 </Link>
               ))}
             </div>
@@ -69,7 +68,7 @@ export default function Navbar() {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-white text-black px-4 py-1.5 rounded-full text-sm font-medium hover:bg-vercel-gray-200 transition-colors"
+              className="bg-white text-black px-4 py-1.5 rounded-full text-sm hover:bg-vercel-gray-200 transition-colors"
             >
               {t('nav.contact')}
             </motion.button>
@@ -126,7 +125,7 @@ export default function Navbar() {
               </div>
               <Link to="/automations" onClick={closeMenu} className="py-2 hover:text-white transition-colors">{t('nav.automations')}</Link>
               <Link to="/about" onClick={closeMenu} className="py-2 hover:text-white transition-colors">{t('nav.about')}</Link>
-              <Link to="/contact" onClick={closeMenu} className="py-2 hover:text-white transition-colors text-white font-medium">{t('nav.contact')}</Link>
+              <Link to="/contact" onClick={closeMenu} className="py-2 hover:text-white transition-colors text-white">{t('nav.contact')}</Link>
             </div>
           </motion.div>
         )}

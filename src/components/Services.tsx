@@ -16,7 +16,7 @@ export default function Services() {
           transition={{ duration: 0.5 }}
           className="flex flex-col items-center text-center mb-20"
         >
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
+          <h2 className="text-4xl md:text-5xl mb-6">
             {t('services.title')}
           </h2>
            <p className="text-xl text-vercel-gray-400 max-w-3xl">
@@ -40,7 +40,7 @@ export default function Services() {
                   <div className="mb-6 inline-flex items-center justify-center w-12 h-12 rounded-xl bg-black border border-white/10">
                     {service.icon}
                   </div>
-                  <h3 className="text-xl font-semibold mb-3 group-hover:text-white transition-colors">
+                  <h3 className="text-xl mb-3 group-hover:text-white transition-colors">
                     {t(`services.items.${service.id}.title`)}
                   </h3>
                   <p className="text-vercel-gray-400 leading-relaxed flex-grow">

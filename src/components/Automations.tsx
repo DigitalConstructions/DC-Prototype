@@ -27,7 +27,7 @@ export default function Automations() {
             </span>
           </div>
           
-          <h2 className="text-4xl md:text-6xl font-bold tracking-tight mb-8 leading-tight">
+          <h2 className="text-4xl md:text-6xl mb-8 leading-tight">
             {t('automations.title')}
           </h2>
           

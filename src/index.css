@@ -36,6 +36,37 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.25em !important;
+  color: #ffffff !important;
+}
+
+p, span, div, li, a, button, input, textarea, label {
+  font-family: 'Inter', sans-serif !important;
+}
+
+/* Standard text spacing for readability */
+p, li, a, span, button, label {
+  font-weight: 300 !important;
+  letter-spacing: 0.05em; 
+}
+
+/* Brand-specific "Description" spacing (20% / 0.2em) */
+.description, 
+.text-description,
+p.text-xl, 
+p.text-lg, 
+[class*="subtitle"],
+[class*="tagline"],
+[class*="description"],
+.hero-subtitle {
+  font-weight: 300 !important;
+  letter-spacing: 0.2em !important;
+  line-height: 1.8;
+}
+
 ::selection {
   background-color: var(--color-vercel-pink);
   color: var(--color-vercel-white);
