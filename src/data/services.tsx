@@ -51,9 +51,9 @@ export const servicesData = [
   },
   {
     id: 'data-engineering',
-    icon: <Database className="w-6 h-6 text-vercel-pink" />,
-    iconLarge: <Database className="w-12 h-12 text-vercel-pink" />,
-    color: 'text-vercel-pink',
+    icon: <Database className="w-6 h-6 text-white" />,
+    iconLarge: <Database className="w-12 h-12 text-white" />,
+    color: 'text-white',
     title: 'Data Engineering',
     description: 'Build robust data infrastructure to support your AI models and business intelligence initiatives.',
     longDescription: 'Data is the foundation of modern business intelligence and AI. We design and implement scalable data architectures, including data lakes, warehouses, and real-time streaming pipelines. Our data engineering team ensures your data is clean, accessible, and structured perfectly for analytics, reporting, and machine learning models.',

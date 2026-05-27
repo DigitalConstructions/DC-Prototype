@@ -51,7 +51,7 @@ export default function AutomationDetail() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="p-8 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm"
           >
-            <Zap className="w-8 h-8 text-vercel-pink mb-6" />
+            <Zap className="w-8 h-8 text-vercel-cyan mb-6" />
             <h3 className="text-xl font-bold mb-4">{t('automationDetail.features.syncTitle')}</h3>
             <p className="text-vercel-gray-400 leading-relaxed">
               {t('automationDetail.features.syncText')}

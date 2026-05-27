@@ -21,8 +21,8 @@ export default function Contact() {
         exit={{ opacity: 0, filter: 'blur(10px)', y: -20 }} 
         transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
       >
-        <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-4">{t('contact.title')}</h1>
-        <p className="text-vercel-gray-400 mb-10 text-lg font-light">
+        <h1 className="text-4xl md:text-6xl mb-4">{t('contact.title')}</h1>
+        <p className="text-vercel-gray-400 mb-10 text-lg">
           {t('contact.subtitle')}
         </p>
         {success && (

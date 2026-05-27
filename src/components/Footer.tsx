@@ -9,8 +9,7 @@ export default function Footer() {
     <footer className="relative border-t border-white/10 py-12 px-6 z-10 mt-auto">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
         <Link to="/" className="flex items-center gap-3">
-          <img src="/logo.svg" alt="Digital Constructions Logo" className="w-5 h-5 opacity-90" />
-          <span className="font-semibold text-sm tracking-tight">{t('footer.brand')}</span>
+          <img src="/logo.svg" alt="ABVC Digital Constructions Logo" className="h-8 w-auto opacity-90" />
         </Link>
 
         <div className="flex gap-6 text-sm text-vercel-gray-400">
